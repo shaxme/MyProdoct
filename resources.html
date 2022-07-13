@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+   <link rel="icon" href="./favicon/favicon.ico">
+   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+   <link rel="manifest" href="/site.webmanifest">
+   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+   <link rel="stylesheet" href="./css/main.min.css">
+   <title>MyProduct</title>
+</head>
+<body>
+   
+   <header class="header">
+      
+      <div class="container">
+         
+         <div class="header__inside">
+            
+            <a class="header__logo-link" href="./index.html">
+               
+               <img class="header__logo" src="./img/logo.svg" alt="MyProduct site logo">
+               
+            </a>
+            
+            <nav class="header__nav nav">
+               
+               <ul class="nav__list">
+                  
+                  <li class="nav__item">
+                     
+                     <a class="nav__link" href="./index.html" target="blank">
+                        Product
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="nav__item">
+                     
+                     <a class="nav__link" href="./customers.html" target="blank">
+                        Customers
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="nav__item">
+                     
+                     <a class="nav__link" href="./pricing.html" target="blank">
+                        Pricing
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="nav__item">
+                     
+                     <a class="nav__link nav__link--active" href="./resources.html" target="blank">
+                        Resources
+                     </a>
+                     
+                  </li>
+                  
+               </ul>
+               
+            </nav>
+            
+            <a class="header__link" href="#">
+               Sign In
+            </a>
+            
+            <a class="header__link header__link--green" href="#">
+               Sign Up
+            </a>
+            
+            <button class="header__button changer">
+               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="32" height="32" rx="16" fill="#F3F3F3"/>
+                  <path d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26ZM16 8C20.411 8 24 11.589 24 16C24 20.411 20.411 24 16 24C11.589 24 8 20.411 8 16C8 11.589 11.589 8 16 8Z" fill="#02897A"/>
+                  <path d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z" fill="#02897A"/>
+               </svg>
+            </button>
+            
+            <div class="header__menu" onclick="myFunction(this)">
+               <div class="bar1"></div>
+               <div class="bar2"></div>
+               <div class="bar3"></div>
+            </div>
+         </div>
+      </div>
+   </header>
+   
+   <main>
+      
+      <section class="great">
+         
+         <div class="container">
+            
+            <div class="great__inside">
+               
+               <div class="great__info">
+                  
+                  <div class="great__title-case">
+                     <h1 class="great__title">
+                        Great Business made with Product.
+                     </h1>
+                  </div>
+                  
+                  <p class="great__describe">
+                     Build better customer relationships easily messaging that provides a more personal experience for you and your customers.
+                  </p>
+                  
+                  <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="on" class="great__form">
+                     
+                     <label>
+                        <input name="User email address" type="email" required placeholder="Enter your email adress" class="great__input">
+                     </label>
+                     
+                     <button type="submit" class="great__button">
+                        Join Now
+                     </button>
+                     
+                  </form>
+                  
+                  <div class="great__remembers remembers">
+                     <img class="remembers__img" src="./img/remembers.png" alt="remembers">
+                     <p class="remembers__info">
+                        Join over <span class="remembers__info remembers__info--green">4,000+
+                        </span>
+                        other
+                     </p>
+                  </div>
+                  
+               </div>
+               
+               <img class="great__main-img" src="./img/great-img.png" alt="tablets">
+               
+            </div>
+            
+         </div>
+         
+      </section>
+      
+      <section class="stories">
+         
+         <div class="container">
+            
+            <div class="stories__inside">
+               
+               <h2 class="stories__title">
+                  Latest Stories
+               </h2>
+               
+               <p class="stories__text">
+                  We focus on ergonomics and meeting you where you work. It's only a keystroke away. 
+               </p>
+               
+               <ul class="stories__list">
+                  
+                  <li class="stories__item">
+                     
+                     <img class="stories__img" src="./img/stories1.png" alt="Stories image">
+                     
+                     <div class="stories__info">
+                        
+                        <p class="stories__describe">
+                           By  
+                           <strong>
+                              Wahid Ari
+                           </strong>
+                           |
+                           <time datetime="2002-09-25">
+                              03 March 2019
+                           </time>                           
+                        </p>
+                        
+                        <h3 class="stories__hidding">
+                           Increasing Prosperity With Positive Thinking
+                        </h3>
+                        
+                     </div>
+                     
+                  </li>
+                  
+                  <li class="stories__item">
+                     
+                     <img class="stories__img" src="./img/stories2.png" alt="Stories image">
+                     
+                     <div class="stories__info">
+                        
+                        <p class="stories__describe">
+                           By  
+                           <strong>
+                              Wahid Ari
+                           </strong>
+                           |
+                           <time datetime="2002-09-25">
+                              03 March 2019
+                           </time>                           
+                        </p>
+                        
+                        <h3 class="stories__hidding">
+                           Motivation Is The First Step To Success
+                        </h3>
+                        
+                     </div>
+                     
+                  </li>
+                  
+                  <li class="stories__item">
+                     
+                     <img class="stories__img" src="./img/stories3.png" alt="Stories image">
+                     
+                     <div class="stories__info">
+                        
+                        <p class="stories__describe">
+                           By  
+                           <strong>
+                              Wahid Ari
+                           </strong>
+                           |
+                           <time datetime="2002-09-25">
+                              03 March 2019
+                           </time>                           
+                        </p>
+                        
+                        <h3 class="stories__hidding">
+                           Success Steps For Your Personal Or Business
+                        </h3>
+                        
+                     </div>
+                     
+                  </li>
+                  
+                  <li class="stories__item">
+                     
+                     <img class="stories__img" src="./img/stories4.png" alt="Stories image">
+                     
+                     <div class="stories__info">
+                        
+                        <p class="stories__describe">
+                           By  
+                           <strong>
+                              Wahid Ari
+                           </strong>
+                           |
+                           <time datetime="2002-09-25">
+                              03 March 2019
+                           </time>                           
+                        </p>
+                        
+                        <h3 class="stories__hidding">
+                           Increasing Prosperity With Positive Thinking
+                        </h3>
+                        
+                     </div>
+                     
+                  </li>
+                  
+                  <li class="stories__item">
+                     
+                     <img class="stories__img" src="./img/stories5.png" alt="Stories image">
+                     
+                     <div class="stories__info">
+                        
+                        <p class="stories__describe">
+                           By  
+                           <strong>
+                              Wahid Ari
+                           </strong>
+                           |
+                           <time datetime="2002-09-25">
+                              03 March 2019
+                           </time>                           
+                        </p>
+                        
+                        <h3 class="stories__hidding">
+                           Motivation Is The First Step To Success
+                        </h3>
+                        
+                     </div>
+                     
+                  </li>
+                  
+                  <li class="stories__item">
+                     
+                     <img class="stories__img" src="./img/stories6.png" alt="Stories image">
+                     
+                     <div class="stories__info">
+                        
+                        <p class="stories__describe">
+                           By  
+                           <strong>
+                              Wahid Ari
+                           </strong>
+                           |
+                           <time datetime="2002-09-25">
+                              03 March 2019
+                           </time>                           
+                        </p>
+                        
+                        <h3 class="stories__hidding">
+                           Success Steps For Your Personal Or Business
+                        </h3>
+                        
+                     </div>
+                     
+                  </li>
+                  
+               </ul>
+               
+               <span class="stories__link-case">
+                  <a class="stories__link" href="#">
+                     More Stories
+                  </a>
+               </span>
+               
+            </div>
+            
+         </div>
+         
+      </section>
+      
+      <section class="contact">
+         
+         <div class="container">
+            
+            <div class="contact__inside">
+               
+               <div class="contact__info-box">
+                  
+                  <h2 class="contact__title">
+                     Contact Us
+                  </h2>
+                  
+                  <p class="contact__describe">
+                     Need more detailed information? Get in touch with us.
+                  </p>
+                  
+                  <ul class="networks networks--contact">
+                     
+                     <li class="networks__item">
+                        <a href="#">
+                           <img src="./img/insta.png" alt="networks">
+                        </a>
+                     </li>
+                     
+                     <li class="networks__item">
+                        <a href="#">
+                           <img src="./img/facebook.png" alt="networks">
+                        </a>
+                     </li>
+                     
+                     <li class="networks__item">
+                        <a href="#">
+                           <img src="./img/twitter.png" alt="networks">
+                        </a>
+                     </li>
+                     
+                  </ul>
+                  
+               </div>
+               
+               <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6491.953624416696!2d-122.4185022687053!3d37.77667548293871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sTwitter%20HQ!5e0!3m2!1sru!2s!4v1645064669548!5m2!1sru!2s" width="875" height="325" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+               
+            </div>
+            
+         </div>
+         
+      </section>
+      
+      <section class="massage">
+         
+         <div class="container">
+            
+            <div class="massage__inside">
+               
+               <h2 class="massage__title">
+                  Send a message
+               </h2>
+               
+               <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off" class="massage__form">
+                  
+                  <label class="massage__label">
+                     <input class="massage__input" type="text" name="User name" placeholder="Your Name" required>
+                  </label>
+                  <label class="massage__label">
+                     <input class="massage__input" type="email" name="User email" placeholder="Your Email" required>
+                  </label>
+                  
+                  <label class="massage__label">
+                     
+                     <textarea class="massage__textaria" name="User massage" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                     
+                  </label>
+                  
+                  <button class="massage__button">
+                     Send
+                  </button>
+                  
+                  
+                  
+               </form>
+               
+            </div>
+            
+         </div>
+         
+      </section>
+
+   </main>
+   
+   <footer class="footer">
+      
+      <div class="container">
+         
+         <div class="footer__inside">
+            
+            <div class="footer__logo-box">
+               
+               <a class="footer__logo" href="#">
+                  <img class="footer__logo-img" src="./img/logo.svg" alt="Site logo">
+               </a>
+               
+               <ul class="networks">
+                  
+                  <li class="networks__item">
+                     <a href="#">
+                        <img src="./img/insta.png" alt="networks">
+                     </a>
+                  </li>
+                  
+                  <li class="networks__item">
+                     <a href="#">
+                        <img src="./img/facebook.png" alt="networks">
+                     </a>
+                  </li>
+                  
+                  <li class="networks__item">
+                     <a href="#">
+                        <img src="./img/twitter.png" alt="networks">
+                     </a>
+                  </li>
+                  
+               </ul>
+               
+            </div>
+            
+            <div class="footer__link-box box">
+               
+               <strong class="box__title">
+                  Resource
+               </strong>
+               
+               <ul class="box__list">
+                  
+                  <li class="box__item">
+                     
+                     <a href="#" class="box__link">
+                        About Us
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="box__item">
+                     
+                     <a href="#" class="box__link">
+                        Blog
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="box__item">
+                     
+                     <a href="#" class="box__link">
+                        Contact
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="box__item">
+                     
+                     <a href="#" class="box__link">
+                        FAQ
+                     </a>
+                     
+                  </li>
+                  
+               </ul>
+               
+               
+            </div>
+            <div class="footer__link-box box">
+               
+               <strong class="box__title">
+                  Legal Stuff
+               </strong>
+               
+               <ul class="box__list">
+                  
+                  <li class="box__item">
+                     
+                     <a href="#" class="box__link">
+                        Disclaimer
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="box__item">
+                     
+                     <a href="#" class="box__link">
+                        Financing
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="box__item">
+                     
+                     <a href="#" class="box__link">
+                        Privacy Policy
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="box__item">
+                     
+                     <a href="#" class="box__link">
+                        Terms of Service
+                     </a>
+                     
+                  </li>
+                  
+               </ul>
+               
+               
+            </div>
+            
+            <div class="footer__form-box">
+               
+               <span class="form-box__title-case">
+                  <strong class="form-box__title">
+                     Knowing you're always on the best energy deal.
+                  </strong>
+               </span>
+               
+               <form action="https://echo.htmlacademy.ru/courses" class="form" method="post" autocomplete="off">
+                  
+                  <label class="form__label">
+                     <input type="email" name="User email address" required class="form__input">
+                  </label>
+                  
+                  <button class="form__button" type="submit">
+                     Sign up Now
+                  </button>
+                  
+               </form>
+               
+            </div>
+            
+         </div>
+         
+         <p class="footer__describe">
+            Made With Love By Figmaland All Right Reserved
+         </p>
+         
+         
+      </div>
+      
+   </footer>
+   
+   
+   
+   
+   <script src="./js/main.js"></script>
+   
+   
+   
+</body>
+</html>

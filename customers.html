@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="./favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <title>MyProduct</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container"> 
+      <div class="header__inside">
+        <a class="header__logo-link" href="./index.html">  
+          <img class="header__logo" src="./img/logo.svg" alt="MyProduct site logo">   
+        </a>
+            
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html" target="blank">
+                Product
+              </a>
+            </li>
+                  
+            <li class="nav__item">
+              <a class="nav__link nav__link--active" href="./customers.html" target="blank">
+                Customers
+              </a>   
+            </li>
+                  
+            <li class="nav__item">
+              <a class="nav__link" href="./pricing.html" target="blank">
+                Pricing
+              </a>  
+            </li>
+                  
+            <li class="nav__item">
+              <a class="nav__link" href="./resources.html" target="blank">
+                Resources
+              </a> 
+            </li>     
+          </ul>   
+        </nav>
+            
+        <a class="header__link" href="#">
+          Sign In
+        </a>
+            
+        <a class="header__link header__link--green" href="#">
+          Sign Up
+        </a>
+            
+        <button class="header__button changer">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="16" fill="#F3F3F3"/>
+              <path d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26ZM16 8C20.411 8 24 11.589 24 16C24 20.411 20.411 24 16 24C11.589 24 8 20.411 8 16C8 11.589 11.589 8 16 8Z" fill="#02897A"/>
+              <path d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z" fill="#02897A"/>
+          </svg>
+        </button>
+
+        <div class="header__menu" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+            
+      </div>
+    </div>
+  </header>
+   
+  <main>
+    <section class="clients">
+      <h1 class="visually-hidden">Customers</h1>
+        <div class="clients__container container">
+          <div class="clients__inside">
+            <h2 class="clients__title">Our Clients</h2>
+              <ul class="clients__list">
+                <li class="clients__item">
+                  <a href="https://www.airbnb.com/" target="_blank">
+                    <img src="./img/AirbnbLogo.svg" alt="AirbnbLogo" width="159" height="50">
+                  </a>
+                </li>
+                  
+                <li class="clients__item">
+                  <a href="https://www.google.com/" target="_blank">
+                    <img src="./img/GoogleLogo.svg" alt="GoogleLogo" width="146" height="50">
+                  </a>
+                </li>
+                  
+                <li class="clients__item">
+                  <a href="https://www.microsoft.com/en-us/" target="_blank">
+                    <img src="./img/MicrosoftLogo.svg" alt="MicrosoftLogo" width="213" height="44">
+                  </a>
+                </li>
+                  
+                <li class="clients__item">
+                  <a href="https://www.fedex.com/en-us/home.html" target="_blank">
+                    <img src="./img/FedExLogo.svg" alt="FedExLogo" width="140" height="42">
+                  </a>
+                </li>
+              </ul>
+            </div>
+         </div>
+      </section>
+      
+      <section class="choose">
+        <div class="container">
+          <div class="choose__inside">
+            <h2 class="choose__title">Why Choose Product?</h2>
+            <ul class="choose__list">
+              <li class="choose__item">
+                <h3 class="choose__item-hidding">Special Business</h3>
+
+                <p class="choose__describe">
+                  Product helps you see how many more days you need to work 
+                  to reach your financial goal for the month and year.
+                </p>
+              </li>
+                  
+              <li class="choose__item">
+                <h3 class="choose__item-hidding">Instant Result</h3>
+
+                <p class="choose__describe">
+                  Product helps you see how many more days you need to work 
+                  to reach your financial goal for the month and year.
+                </p>
+              </li>
+                  
+              <li class="choose__item">
+                <h3 class="choose__item-hidding">
+                  Fastest way to organize
+                </h3>
+
+                <p class="choose__describe">
+                  Product helps you see how many more days you need to work 
+                  to reach your financial goal for the month and year.
+                </p>  
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <section class="steps">
+        <div class="steps__container container">
+          <div class="steps__inside">
+            <h2 class="steps__title">How Product Work?</h2>
+               
+            <ul class="steps__list">  
+              <li class="steps__item">
+                <img src="./img/mac1.png" alt="laptop" class="steps__img">
+
+                <div class="steps__info">
+                  <span class="steps__number"> STEP 1 </span>
+                  <h3 class="steps__hidding">Apply for a product</h3>
+
+                  <p class="steps__describe">
+                    Completing our easy step-by-step application form gives you access to multiple business with multiple products. We analyse your business through our proprietary credit analysis technology 
+                  </p>
+                </div>
+              </li>
+                  
+              <li class="steps__item">
+                <img src="./img/mac2.png" alt="laptop" class="steps__img steps__img--left"> 
+
+                <div class="steps__info">
+                  <span class="steps__number">STEP 2</span>
+                    <h3 class="steps__hidding">Pay fully refundable</h3>
+
+                    <p class="steps__describe">
+                      Product will contactting you instantly to receive payment of the Application Fee. if no offer of product is available, your fee will be fully refunded.
+                    </p>  
+                </div>
+              </li>
+                  
+              <li class="steps__item">
+                <img src="./img/mac3.png" alt="laptop" class="steps__img">
+
+                <div class="steps__info">
+                  <span class="steps__number">STEP 3</span>
+                  <h3 class="steps__hidding">Completion</h3>
+                  <p class="steps__describe">
+                    Product will continue to liase between borrower and manager to procees and complete a quick and efficient settlement
+                  </p>
+                </div>
+              </li>
+            </ul> 
+              <span class="steps__link-case">
+                <a href="#" class="steps__link">
+                  Get in touch with us
+                </a>
+              </span> 
+          </div>
+        </div>
+      </section>
+      
+      <section class="offers">
+        <div class="offers__container container">
+          <div class="offers__inside">
+            <div class="offers__title-case">
+              <h2 class="offers__title">Join thousand of other who have already received offers</h2>
+            </div>
+               
+              <ol class="offers__list">
+                <li class="offers__item">
+                  <h3 class="item__offers-title">Business</h3>
+                     
+                  <ul class="item__offers-list">
+                    <li class="item__offers-elements">
+                      <p class="item__offers-partition">
+                        Cash Flow
+                      </p>
+                    </li>
+                        
+                    <li class="item__offers-elements">
+                      <p class="item__offers-partition">
+                        Asset Backed                              
+                      </p>
+                    </li>
+                        
+                    <li class="item__offers-elements">
+                        <p class="item__offers-partition">
+                          Receivables Finance
+                        </p>
+                    </li>
+                  </ul>
+                     
+                  <p class="offers__describe">
+                    Find the best business product
+                  </p>
+                </li>
+                  
+                <li class="offers__item">
+                  <h3 class="item__offers-title">Enterprise</h3>
+                     
+                  <ul class="item__offers-list">
+                    <li class="item__offers-elements">
+                      <p class="item__offers-partition">
+                        Site Acquisition
+                      </p>
+                    </li>
+                        
+                    <li class="item__offers-elements">
+                      <p class="item__offers-partition">
+                        Bridge
+                      </p>
+                    </li>
+                        
+                    <li class="item__offers-elements">
+                      <p class="item__offers-partition">
+                        Development Financing
+                      </p>
+                    </li>
+                  </ul>
+                     
+                  <p class="offers__describe">
+                    Find the best business product
+                  </p>
+                </li>
+              </ol>
+          </div>
+        </div>
+      </section>
+      
+      <section class="boost">
+        <div class="container">
+          <div class="boost__inside">
+            <div class="boost__info">
+              <h2 class="boost__title">Join 100 Compannies who boost their business with Product</h2>
+
+              <span class="boost__link-case">
+                <a href="#" class="boost__link">
+                  Get This
+                </a>
+              </span>
+            </div>
+              <img class="boost__img" src="./img/screen.png" alt="papers">
+          </div>
+        </div>
+      </section>
+    </main>
+   
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__inside">
+          <div class="footer__logo-box">
+            <a class="footer__logo" href="#">
+              <img class="footer__logo-img" src="./img/logo.svg" alt="Site logo">
+            </a>
+               
+            <ul class="networks">
+              <li class="networks__item">
+                <a href="https://www.instagram.com/_shax.me_/">
+                  <img src="./img/insta.png" alt="Instagram" width="40" height="40">
+                </a>
+              </li>
+                  
+              <li class="networks__item">
+                <a href="https://www.facebook.com/profile.php?id=100081532337178">
+                  <img src="./img/facebook.png" alt="Facebook" width="40" height="40">
+                </a>
+              </li>
+                  
+              <li class="networks__item">
+                <a href="https://twitter.com/ShohsuvorA">
+                  <img src="./img/twitter.png" alt="Twitter" width="40" height="40">
+                </a>
+              </li>
+            </ul>
+          </div>
+            
+          <div class="footer__link-box box">
+            <strong class="box__title">
+              Resource
+            </strong>
+
+            <ul class="box__list">
+              <li class="box__item">
+                <a href="#" class="box__link">
+                  About Us
+                </a>
+              </li>
+                  
+              <li class="box__item">
+                <a href="#" class="box__link">
+                  Blog
+                </a>
+              </li>
+                  
+              <li class="box__item">
+                <a href="#" class="box__link">
+                  Contact
+                </a>
+              </li>
+                  
+              <li class="box__item">
+                <a href="#" class="box__link">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__link-box box">
+            <strong class="box__title">
+              Legal Stuff
+            </strong>
+               
+            <ul class="box__list">
+              <li class="box__item">
+                <a href="#" class="box__link">
+                  Disclaimer
+                </a>
+              </li>
+                  
+              <li class="box__item">
+                <a href="#" class="box__link">
+                  Financing
+                </a>
+              </li>
+                  
+              <li class="box__item">
+                <a href="#" class="box__link">
+                  Privacy Policy
+                </a>
+              </li>
+                  
+              <li class="box__item">
+                <a href="#" class="box__link">
+                  Terms of Service
+                </a>
+              </li>
+            </ul>
+          </div>
+            
+          <div class="footer__form-box">
+            <span class="form-box__title-case">
+              <strong class="form-box__title">
+                Knowing you're always on the best energy deal.
+              </strong>
+            </span>
+               
+            <form action="https://echo.htmlacademy.ru" class="form" method="post" autocomplete="off">
+              <label class="form__label">
+                <input type="email" name="User email address" required class="form__input">
+              </label>
+                  
+              <button class="form__button" type="submit">
+                Sign up Now
+              </button>
+              </form>
+            </div>
+        </div>
+          <p class="footer__describe">Made With Love By Figmaland All Right Reserved</p>
+      </div>
+    </footer>
+  <script src="./js/main.js"></script>
+</body>
+</html>
