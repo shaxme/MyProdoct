@@ -121,6 +121,15 @@ img {
   transition:1.5s ease;
 }
 
+.navlinks {
+  flex: 1;
+  text-align: right;
+}
+
+.uil {
+  display: none;
+}
+
 .nav__list {
   display:flex;
   align-items:center;
@@ -275,28 +284,6 @@ img {
     transition:1.5s ease
   }
 
-  .header__link--green {
-    margin:0px;
-    top:-560px
-  }
-
-  .header--active .changer {
-    top:450px
-  }
- 
-  .changer {
-    position:absolute;
-    z-index:2;
-    top:-430px;
-    left:50%;
-    transform:translate(-50%);
-    transition:top 1.5s ease
-  }
-
-  .header__menu {
-    display:block;
-    margin-right: 22px;
-  }
 }
 
 
@@ -714,7 +701,7 @@ img {
   }
 
   .managment__title{
-    font-family:"Poppins";
+    font-family:"Poppin";
     font-style:normal;
     font-weight:bold;
     font-size:32px;
