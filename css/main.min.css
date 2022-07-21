@@ -95,10 +95,10 @@ img {
 }
 
 .container {
-  width: 100%;
   max-width: 1150px;
   padding: 0px 20px;
   margin: 0px auto;
+  overflow: hidden;
 }
 
 .header {
@@ -190,7 +190,6 @@ img {
 
 .header__menu {
   display:none;
-  font-size:25px;
   background-color:transparent;
   color:#333D4B;
   border:none;
@@ -198,8 +197,8 @@ img {
 }
 
 .bar1,.bar2,.bar3 {
-  width:35px;
-  height:5px;
+  width:30px;
+  height:4px;
   background-color:var(--color-text);
   margin:6px 0;
   transition:0.4s;
@@ -282,6 +281,15 @@ img {
     left:50%;
     transform:translate(-50%);
     transition:1.5s ease
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .header__menu {
+    display: block;
+    cursor: pointer;
   }
 
 }
@@ -701,7 +709,7 @@ img {
   }
 
   .managment__title{
-    font-family:"Poppin";
+    font-family:"Poppins";
     font-style:normal;
     font-weight:bold;
     font-size:32px;
@@ -1577,7 +1585,7 @@ img {
 
 .form__input{
   width:100%;
-  max-width:325px;
+  max-width:265px;
   background:#FFFFFF;
   border:1px solid #BCD0E5;
   border-radius:4px;
@@ -2116,7 +2124,6 @@ img {
 }
 
 .choose__item {
-  width:100%;
   max-width:350px;
   list-style:none;
   padding:115px 25px 40px 25px;
@@ -2365,6 +2372,7 @@ img {
 .offers__list{
   display:flex;
   justify-content:center;
+  gap:100px;
   margin:0px;
   padding:0px;
 }
@@ -2375,10 +2383,6 @@ img {
   padding:calc(150px + 27px) 10px 0px 10px;
   position:relative;
   z-index:1;
-}
-
-.offers__item+.offers__item{
-  margin-left:115px;
 }
 
 .offers__item:nth-child(1)::before{
